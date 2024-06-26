@@ -23,7 +23,6 @@ class DashboardRequest extends FormRequest
     {
         return [
             'single_select' => 'required',
-            'multi_select' => 'required|array',
         ];
     }
 }
